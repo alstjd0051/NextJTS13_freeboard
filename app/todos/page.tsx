@@ -4,6 +4,7 @@ import TodoList from "./TodoList";
 const Todos = () => {
   return (
     <div>
+      {/* @ts-ignore */}
       <TodoList />
     </div>
   );
